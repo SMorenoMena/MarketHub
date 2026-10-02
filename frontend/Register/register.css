@@ -1,0 +1,117 @@
+h1, h2, h3 {
+  font-family: 'Fraunces', serif;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #FAF6EC;
+  margin-top: 55px;
+}
+
+
+ 
+
+.register{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 15px;
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+  
+}
+
+.register-header p {
+    font-family: 'Fraunces', serif;
+    font-size: 13px;
+
+}
+
+.register label  {
+  display: block;
+  margin-bottom: 5px;
+}
+.register input {
+  
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border: 1px solid #dcd3bc;
+  border-radius: 8px;
+
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.role-selection {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.role-selection label {
+ display:inline
+}
+
+.role-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px 12px ;
+  flex:1;
+  cursor: pointer;  
+  min-width: 0;
+
+  
+}
+
+.role-option:has(input:checked) {
+  border-color: #2d5a4a;
+  background-color: rgba(45, 90, 74, 0.07);
+}
+
+.role-option label{
+  white-space: nowrap;
+}
+
+.register button {
+ width: 100%;
+  padding: 10px;
+  background-color: #2d5a4a;
+  border-radius: 8px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+.register button:hover {
+  background-color: #1e3d33;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+ .pregunta {
+  font-family: 'Fraunces', serif;
+  text-decoration: none;
+  text-align: center;
+  color: #2d5a4a;
+ }
