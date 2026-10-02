@@ -5,20 +5,22 @@ h1, h2, h3 {
 body {
   font-family: 'Work Sans', sans-serif;
   background-color: #FAF6EC;
-  margin-top: 55px;
+  
 }
 
 
  
 
 .register{
+  background-color: #fffdf8;
   display: flex;
   flex-direction: column;
   gap: 12px;
   width: 100%;
-  max-width: 320px;
+  max-width: 450px;
   margin: 0 auto;
-  border: 1px solid #ccc;
+  border: 5px solid transparent;
+  box-shadow:  0 0 10px #dcd3bc;
   padding: 25px;
   border-radius: 15px;
   font-size: 13px;
@@ -46,11 +48,6 @@ body {
   border-radius: 8px;
 
 }
-.form-container {
-  display: flex;
-  flex-direction: column;
-  
-}
 
 .role-selection {
   display: flex;
@@ -60,16 +57,13 @@ body {
   
 }
 
-.role-selection label {
- display:inline
-}
 
 .role-option {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border: 1px solid #ccc;
+  border: 1px solid #dcd3bc;
   margin-top: 10px;
   border-radius: 8px;
   padding: 10px 12px ;
@@ -90,7 +84,7 @@ body {
 }
 
 .register button {
- width: 100%;
+  width: 100%;
   padding: 10px;
   background-color: #2d5a4a;
   border-radius: 8px;
